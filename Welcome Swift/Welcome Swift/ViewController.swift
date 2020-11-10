@@ -14,9 +14,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         
-        print("Hello World")
+        say("Hello World")
+        
+        
     }
 
-
+    func say(_ text: String) {
+        
+        print(text)
+    }
 }
 
