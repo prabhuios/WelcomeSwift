@@ -17,8 +17,6 @@ class ViewController: UIViewController {
         
         
         say("Hello World")
-        
-        
     }
 
     func say(_ text: String) {
